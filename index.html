@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator-Tip</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+
+    <!-- My Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h2>Kalkulator Tip</h2>
+    <div class="container">
+      <div class="harga">
+        <p>Harga:</p>
+        <input id="hargaInp" type="number" value="number" />
+      </div>
+      <div class="tip harga">
+        <p>Tip %:</p>
+        <input id="tipInp" type="number" value="number" />
+      </div>
+
+      <div class="total-orang">
+        <p class="">Orang</p>
+        <div class="orang">
+          <button id="kurang">-</button>
+          <p id="hasilTambahKurang" value="number">1</p>
+          <button id="tambah">+</button>
+        </div>
+      </div>
+
+      <div class="totalHarga">
+        <p>Total / Orang:</p>
+        <p id="tampilkanTotal" class="hargaTotal">-</p>
+      </div>
+    </div>
+  </body>
+</html>

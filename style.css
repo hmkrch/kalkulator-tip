@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f2edd1;
+}
+
+h2 {
+  background-color: #3e3f29;
+  color: white;
+  margin: 50px auto 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  width: 25%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.container {
+  background-color: hsl(63, 21%, 30%);
+  color: white;
+  border: 1px solid;
+  /* height: 500px; */
+  width: 25%;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: none;
+  box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.harga {
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+.container input {
+  display: flex;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.total-orang {
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  /* margin-top: 10px; */
+  font-weight: bold;
+}
+
+.total-orang .orang {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  /* border: 1px solid; */
+}
+
+.total-orang .orang button {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+.orang p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.totalHarga {
+  /* border: 1px solid; */
+  background-color: #3e3f29;
+  padding: 5px 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 5px; */
+  font-weight: bold;
+}
+
+.hargaTotal {
+  font-size: 30px;
+}
